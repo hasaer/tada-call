@@ -19,3 +19,12 @@ http PUT localhost:8088/drivings/2 callId=2 starting=A destination=Z charge=101 
 AKIAT6IQHQ7SJQUW3EHS
 
 wvnvGkl9/5voOOb6fjtr6XagpoBd7/AIMaGx2Gua
+
+----
+
+Local에 EKS 클러스터 접속정보 설정 ~
+
+https://workflowy.com/s/msa/27a0ioMCzlpV04Ib#/64eb06e54637
+
+----
+
