@@ -3,8 +3,37 @@ package tada;
 public class Called extends AbstractEvent {
 
     private Long callId;
+    public String getCallStatus() {
+        return callStatus;
+    }
+
+    public void setCallStatus(String callStatus) {
+        this.callStatus = callStatus;
+    }
+
+    private String callStatus;
+
+    public Long getDrivingId() {
+        return drivingId;
+    }
+
+    public void setDrivingId(Long drivingId) {
+        this.drivingId = drivingId;
+    }
+
+    private Long drivingId;
+
     private String starting;
     private String destination;
+    public Integer getCharge() {
+        return charge;
+    }
+
+    public void setCharge(Integer charge) {
+        this.charge = charge;
+    }
+
+    private Integer charge;
 
     public Called(){
         super();

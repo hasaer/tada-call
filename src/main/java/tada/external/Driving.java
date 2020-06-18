@@ -2,19 +2,19 @@ package tada.external;
 
 public class Driving {
 
-    private Long id;
+    private Long drivingId;
     private String starting;
     private String destination;
     private String drivingStatus;
     private Integer charge;
+    private Long callId;
 
-
-    public Long getId() {
-        return id;
+    public Long getDrivingId() {
+        return drivingId;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setDrivingId(Long drivingId) {
+        this.drivingId = drivingId;
     }
     public String getStarting() {
         return starting;
@@ -43,6 +43,14 @@ public class Driving {
 
     public void setCharge(Integer charge) {
         this.charge = charge;
+    }
+
+    public Long getCallId() {
+        return callId;
+    }
+
+    public void setCallId(Long callId) {
+        this.callId = callId;
     }
 
 }
