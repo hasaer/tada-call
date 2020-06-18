@@ -13,3 +13,9 @@ http POST localhost:8088/calls starting=A destination=Z charge=101 callStatus=Ca
 http GET localhost:8088/myPayments/2
 
 http PUT localhost:8088/drivings/2 callId=2 starting=A destination=Z charge=101 drivingStatus=Finished
+
+----
+
+AKIAT6IQHQ7SJQUW3EHS
+
+wvnvGkl9/5voOOb6fjtr6XagpoBd7/AIMaGx2Gua
