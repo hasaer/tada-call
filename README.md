@@ -20,7 +20,7 @@
 
 <h2>Event Storming</h2>
 
-
+<img src="https://user-images.githubusercontent.com/14112255/85084997-6b250d80-b211-11ea-84f9-9ee5b813ddf6.png">
 
 http POST localhost:8088/calls starting=A destination=Z charge=100 callStatus=Called
 
