@@ -40,9 +40,6 @@ http PUT localhost:8088/drivings/2 callId=2 starting=A destination=Z charge=101 
 
 ----
 
-AKIAT6IQHQ7SJQUW3EHS
-
-wvnvGkl9/5voOOb6fjtr6XagpoBd7/AIMaGx2Gua
 
 ----
 
