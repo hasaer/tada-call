@@ -23,6 +23,7 @@ public class PolicyHandler{
         if(drivingCreated.isMe()){
             System.out.println("##### listener MappingId : " + drivingCreated.toJson());
             Call call = callRepository.findByCallId(drivingCreated.getCallId());
+            call.setCallStatus("Called");
             call.setDrivingId(drivingCreated.getDrivingId());
             callRepository.save(call);
         }

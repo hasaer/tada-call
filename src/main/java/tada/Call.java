@@ -56,7 +56,7 @@ public class Call {
     public void onPostPersist(){
         Called called = new Called();
         called.setCallId(this.getCallId());
-        called.setCallStatus(this.getCallStatus());
+        //called.setCallStatus(this.getCallStatus());
         called.setStarting(this.getStarting());
         called.setDestination(this.getDestination());
         called.setDrivingId(this.getDrivingId());
